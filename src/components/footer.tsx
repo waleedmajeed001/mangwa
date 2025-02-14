@@ -11,14 +11,14 @@ const Footer = () => {
           <Link href="#" className="inline-flex items-center">
             <Image src="/logo.png" alt="logo" width={32} height={32} />
             <span className="ml-2 text-xl font-bold tracking-wide text-white">
-              Mangwa Haven . Your Ultimate Anime & Manga Blog
+              Mangwa Haven . Your Ultimate Anime &amp; Manga Blog
             </span>
           </Link>
           <div className="mt-6 lg:max-w-xl">
             <p className="text-sm">
               Welcome to Mangwa Haven, your go-to destination for the latest anime and manga news, reviews, and
               recommendations! Dive into in-depth discussions, character analyses, and the hottest trends in the
-              anime world. Whether you're a seasoned otaku or just starting your manga journey, we've got something
+              anime world. Whether you&apos;re a seasoned otaku or just starting your manga journey, we&apos;ve got something
               for everyone. Stay updated, stay inspired, and explore the vibrant universe of anime and manga with us! 🚀🎌
             </p>
           </div>
