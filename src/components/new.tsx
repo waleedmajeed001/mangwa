@@ -8,7 +8,7 @@ const mangaList = [
   { title: "Dr Stone", img: "/new1.png", likes: "39.7M", genre: "Science" },
   { title: "One Punch Man", img: "/new2.png", likes: "1.9M", genre: "Fantasy" },
   { title: "Possibly Greatest Alchemist", img: "/new3.png", likes: "650K", genre: "Romance" },
-  { title: "Demon Slayer", img: "/banner4.png", likes: "12.4M", genre: "Fantasy" },
+  { title: "Demon Slayer", img: "/baaner4.png", likes: "12.4M", genre: "Fantasy" },
   { title: "Magic Maker", img: "/new4.png", likes: "10.7M", genre: "Supernatural" },
   { title: "Toilet bound Hanako kun", img: "/new5.png", likes: "1.3M", genre: "Comedy" },
   { title: "Solo Leveling", img: "/new6.png", likes: "317K", genre: "Fantasy" },
