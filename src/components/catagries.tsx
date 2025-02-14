@@ -4,7 +4,7 @@ import { useState } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
-const days = ["MON", "TUE", "WED", "THU", "FRI", "SAT", "SUN"];
+const days = ["MON", "TUE", "WED", "THU", "FRI", "SAT", "SUN"] as const;
 
 const mangaData = [
   { title: "Blue-Lock", img: "/baaner1.png", likes: "39.7M", genre: "Adventure" },
@@ -17,10 +17,11 @@ const mangaData = [
   { title: "Naruto Shippuden", img: "/baaner8.png", likes: "317,673", genre: "Fantasy" },
 ];
 
-const categories = days.reduce((acc, day) => {
+// Explicitly typing the categories object
+const categories: Record<string, typeof mangaData> = days.reduce((acc, day) => {
   acc[day] = [...mangaData];
   return acc;
-}, {});
+}, {} as Record<string, typeof mangaData>);
 
 const WeeklyManga = () => {
   const [activeDay, setActiveDay] = useState("SUN");
@@ -50,7 +51,7 @@ const WeeklyManga = () => {
         transition={{ duration: 0.5 }}
         className="grid grid-cols-4 gap-4 mt-6"
       >
-        {categories[activeDay].map((item, index) => (
+        {categories[activeDay]?.map((item, index) => (
           <motion.a
             key={index}
             href="#"
