@@ -42,7 +42,7 @@ const Header = () => {
                   href="#"
                   className="block text-center bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-md transition-all duration-300 transform hover:scale-105"
                 >
-                  Get Started
+                  Start Read
                 </Link>
             </li>
           </ul>
@@ -95,7 +95,7 @@ const Header = () => {
                   href="#"
                   className="block text-center bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-md transition-all duration-300 transform hover:scale-105"
                 >
-                  Get Started
+                  Start Read
                 </Link>
               </li>
             </ul>
