@@ -22,7 +22,7 @@ const Banner = () => {
   }, []);
 
   return (
-    <div className="relative w-full h-[500px] overflow-hidden">
+    <div className="relative bg-black w-full h-[500px] overflow-hidden">
       {/* Image Slider with Smooth Animation */}
       <AnimatePresence mode="wait">
         <motion.div

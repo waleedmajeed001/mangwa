@@ -54,7 +54,7 @@ const Footer = () => {
       </div>
 
       <div className="flex flex-col-reverse justify-between pt-5 pb-10 border-t border-gray-700 lg:flex-row">
-        <p className="text-sm">© Copyright 2023 Company. All rights reserved.</p>
+        <p className="text-sm">© Copyright 2025 Company. All rights reserved.</p>
         <ul className="flex flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
           <li>
             <Link href="https://github.com/waleedmajeed001" className="text-sm transition-colors duration-300 hover:text-purple-400">

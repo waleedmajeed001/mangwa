@@ -30,7 +30,7 @@ export default function TrendingThrillers() {
               <Image src={item.img} alt={item.title} width={50} height={50} className="rounded" />
               <div>
                 <p className="text-sm text-gray-500">{item.genre}</p>
-                <h3 className="text-md font-semibold">{item.title}</h3>
+                <h3 className="text-md text-white font-semibold">{item.title}</h3>
                 <p className="text-xs text-gray-400">{item.author}</p>
               </div>
             </div>
@@ -45,7 +45,7 @@ export default function TrendingThrillers() {
               <Image src={item.img} alt={item.title} width={50} height={50} className="rounded" />
               <div>
                 <p className="text-sm text-gray-500">Famous</p>
-                <h3 className="text-md font-semibold">{item.title}</h3>
+                <h3 className="text-md text-white font-semibold">{item.title}</h3>
                 <p className="text-xs text-gray-400">{item.author}</p>
               </div>
             </div>
